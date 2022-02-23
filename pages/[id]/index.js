@@ -4,7 +4,7 @@ const QuotePersonal = ({ data }) => {
     return (
         <div className='flex flex-col justify-center w-2/4 min-w-fit'>
             <div className="mt-4 ml-12">
-                <Link href={'/'}>
+                <Link href={"/"}>
                 <button className="border p-2 rounded-md hover:bg-zinc-400 hover:text-white">
                     Volver
                 </button>
@@ -14,7 +14,7 @@ const QuotePersonal = ({ data }) => {
             {data.data.map(quote => (
                 <div key={quote._id}
                     className='m-12 border-l-yellow-400 border-l-4 pl-6'>
-                    {quote.quoteText}"
+                    {quote.quoteText}
                 </div>
             ))}
         </div>
