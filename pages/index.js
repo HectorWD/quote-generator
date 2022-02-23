@@ -6,14 +6,14 @@ export default function Home({data}) {
   return (
     
     <div className="flex flex-col items-start mt-9 ml-9">
-      <div className="">
+      <div>
       <p className='
       border-l-4 border-l-yellow-400 
       pl-2 text-xl w-2/4 min-w-fit'> 
-      "{quoteText}" 
+      {quoteText}
       </p>
       </div>
-      <div className="">
+      <div>
         <Link href={`${quoteAuthor}/`}>
         <button className="
         bg-white text-black
